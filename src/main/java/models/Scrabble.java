@@ -11,8 +11,9 @@ public class Scrabble {
 
     public Integer calculateScore(String input) {
         Map<Character, Integer> scrabbleLetters = new HashMap<Character, Integer>();
-        scrabbleLetters.put('a', 1);
-        return scrabbleLetters.get("a");
+        scrabbleLetters.put('a', 1) ;
+
+        return scrabbleLetters.get('a');
 
 //       return HashMap<Character, Integer>scrabbleLetters.values('a');
     }
