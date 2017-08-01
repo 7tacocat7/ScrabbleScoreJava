@@ -18,13 +18,19 @@ public class ScrabbleTest {
     public void calculateScore_returnsScoreForSingleLetter_2() throws Exception {
         Scrabble testScrabble = new Scrabble();
         Integer expected = 2;
-        assertEquals(expected, testScrabble.calculateScore("a"));
+        assertEquals(expected, testScrabble.calculateScore("d"));
     }
     @Test
     public void calculateScore_returnsScoreForSingleLetter_3() throws Exception {
         Scrabble testScrabble = new Scrabble();
+        Integer expected = 3;
+        assertEquals(expected, testScrabble.calculateScore("b"));
+    }
+    @Test
+    public void calculateScore_returnsScoreForSingleLetter_4() throws Exception {
+        Scrabble testScrabble = new Scrabble();
         Integer expected = 4;
-        assertEquals(expected, testScrabble.calculateScore("a"));
+        assertEquals(expected, testScrabble.calculateScore("f"));
     }
 
 }

@@ -27,8 +27,12 @@ public class Scrabble {
         scrabbleLetters.put('c', 3) ;
         scrabbleLetters.put('m', 3) ;
         scrabbleLetters.put('p', 3) ;
-
-        return scrabbleLetters.get('d');
+        scrabbleLetters.put('f', 4) ;
+        scrabbleLetters.put('h', 4) ;
+        scrabbleLetters.put('v', 4) ;
+        scrabbleLetters.put('w', 4) ;
+        scrabbleLetters.put('y', 4) ;
+        return scrabbleLetters.get('v');
 
 //       return HashMap<Character, Integer>scrabbleLetters.values('a');
     }
