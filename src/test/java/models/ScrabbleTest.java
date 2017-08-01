@@ -33,4 +33,10 @@ public class ScrabbleTest {
         assertEquals(expected, testScrabble.calculateScore("f"));
     }
 
+    @Test
+    public void calculateScore_returnsScoreForSingleLetter_5() throws Exception {
+        Scrabble testScrabble = new Scrabble();
+        Integer expected = 5;
+        assertEquals(expected, testScrabble.calculateScore("k"));
+    }
 }
